@@ -91,8 +91,10 @@ class List{
                     cout<< currentNode->noMhs << endl;
                     currentNode = currentNode->next;
                 }
-                cout
+                cout << endl;
             }
             
         }
 };
+
+int
