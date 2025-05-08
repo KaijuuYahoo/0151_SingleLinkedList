@@ -78,5 +78,21 @@ class List{
             return true;
         }
 
-        void tra
+        void traverse (){
+            if (listEmpty())
+            {
+                cout << "\nList Kosong\n";
+            }
+            else{
+                cout << "\nData Di dalam list adalah : ";
+                Node *currentNode = START;
+                while (currentNode != NULL)
+                {
+                    cout<< currentNode->noMhs << endl;
+                    currentNode = currentNode->next;
+                }
+                cout
+            }
+            
+        }
 };
