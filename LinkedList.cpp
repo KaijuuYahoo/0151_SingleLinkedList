@@ -74,6 +74,9 @@ class List{
                 START = START -> next;
             else
                 previous->next = current -> next;
-            dele
+            delete current;
+            return true;
         }
+
+        void tra
 };
