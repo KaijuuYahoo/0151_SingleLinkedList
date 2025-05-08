@@ -36,10 +36,25 @@ class List{
             Node *previous = START;
             Node *current = START;
 
-            while ((current != NULL) && (nim >))
+            while ((current != NULL) && (nim >= current->noMhs))
             {
-                /* code */
+                if (nim == current->noMhs)
+                {
+                    cout<< "\nDuplikasi noMhs tidak diizinkan\n";
+                    return;
+                }
+
+                previous = current;
+                current = current->next;    
             }
+            nodebaru -> next = current;
+            previous -> next = nodebaru;
             
+        }
+        bool listEmpty(){
+            return (START == NULL);
+        }
+        bool Search (int nim, Node **previous, Node **current){
+
         }
 };
