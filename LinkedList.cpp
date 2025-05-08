@@ -24,6 +24,22 @@ class List{
             Node *nodebaru = new Node;
             nodebaru -> noMhs = nim;
 
-            if 
+            if (START==NULL || nim <= START->noMhs){
+                if ((START != NULL) && (nim == START->noMhs)){
+                    cout<< "\nDuplikasi noMhs tidak diizinkan\n";
+                    return;
+                }
+                nodebaru->next = START;
+                START = nodebaru;
+                return;
+            }
+            Node *previous = START;
+            Node *current = START;
+
+            while ((current != NULL) && (nim >))
+            {
+                /* code */
+            }
+            
         }
 };
